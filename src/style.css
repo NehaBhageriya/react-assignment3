@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+body{
+    background: linear-gradient( to right,lightblue,pink,lightblue);
+    text-align: center;
+    height: 100vh;
+}
+label{
+    font-size: xx-large;
+}
+input{
+    padding :13px;
+    border-radius: 25px;
+    font-size:larger;
+}
+.submit{
+    padding:10px 65px;
+    background-color: rgb(85, 85, 206);
+    color:white;
+}
+.box{
+border: 3px solid black;
+/* box-sizing: content-box; */
+width:80vw;
+height:max-content;
+display: flex;
+flex-wrap: wrap;
+margin-left:150px;
+/* width:300px; */
+background-color: rgb(183, 199, 199);
+}
+.subbox{
+    background-color: rgb(219, 98, 118);
+    width:500px;
+    height:50px;
+    margin:10px;
+    border:2px solid black;
+    border-radius: 25px;
+    padding-top:25px;
+    font-size: large;
+}
